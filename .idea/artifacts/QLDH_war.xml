@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="QLDH:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>QLDH</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="QLDH-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="QLDH:war exploded" />
+    </root>
+  </artifact>
+</component>
